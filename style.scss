@@ -397,19 +397,22 @@ header {
         display: flex;
         justify-content: space-between;
 
-        div {
-            flex: 1
-        }
-
         &--image {
+            flex-basis: 25%;
+
             img {
                 width: 100%;
             }
         }
 
+        &--video {
+            flex-basis: 28%
+        }
+
         &--text {
             padding: 0 .5rem;
             font-weight: 500;
+            flex: 1;
         }
     }
 }

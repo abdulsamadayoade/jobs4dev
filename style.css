@@ -391,17 +391,22 @@ header .hero__box--3 a:first-child {
   justify-content: space-between;
 }
 
-.about__bottom div {
-  flex: 1;
+.about__bottom--image {
+  flex-basis: 25%;
 }
 
 .about__bottom--image img {
   width: 100%;
 }
 
+.about__bottom--video {
+  flex-basis: 28%;
+}
+
 .about__bottom--text {
   padding: 0 .5rem;
   font-weight: 500;
+  flex: 1;
 }
 
 .plans {

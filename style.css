@@ -62,7 +62,7 @@ h2 {
 }
 
 header {
-  height: 120vh;
+  height: 704px;
   background-image: url("assets/header.png");
   background-size: cover;
   background-position: center;
@@ -254,6 +254,21 @@ header .hero__box--2 {
   box-shadow: 0px -20px 20px rgba(37, 13, 18, 0.7);
 }
 
+header .hero__box--2::after {
+  content: 'Reliability of mutual cooperation always!';
+  position: absolute;
+  bottom: 10rem;
+  left: 0;
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 1rem 4rem;
+  background: linear-gradient(90deg, rgba(37, 13, 18, 0), #250d12 50%, rgba(37, 13, 18, 0));
+  color: #F3D9BC;
+  display: block;
+  margin: 0 auto;
+  z-index: 20;
+}
+
 header .hero .circle-1 {
   background: url("assets/circle.png") no-repeat 50% 50%;
   height: 534px;
@@ -377,11 +392,15 @@ header .hero__box--3 a:first-child {
 }
 
 .about__bottom div {
-  flex-basis: 33%;
+  flex: 1;
+}
+
+.about__bottom--image img {
+  width: 100%;
 }
 
 .about__bottom--text {
-  padding-right: 1.5rem;
+  padding: 0 .5rem;
   font-weight: 500;
 }
 
@@ -780,14 +799,20 @@ header .hero__box--3 a:first-child {
 }
 
 @media screen and (max-width: 1200px) {
-  h2 {
-    font-size: 2.8rem;
+  header {
+    height: 610px;
   }
   header .hero__box--2 {
     height: 300px;
     width: 300px;
     top: 60%;
     left: 35%;
+  }
+  header .hero__box--2::after {
+    bottom: 0;
+    width: 600px;
+    font-size: 1.8rem;
+    left: -17rem;
   }
   header .hero .slogan {
     width: 60rem;
@@ -813,196 +838,45 @@ header .hero__box--3 a:first-child {
     width: 145px;
     margin: 77px;
   }
-  .about__bottom--image img {
-    width: 100%;
-  }
-  .about__bottom--text {
-    padding: .5rem;
-    font-size: 1.3rem;
-  }
-  .affiliate__inner {
-    margin-top: 5rem;
-  }
-  .affiliate__inner--text {
-    transform: translateX(-8rem);
-  }
 }
 
-@media screen and (max-width: 900px) {
-  header .hero--text {
-    font-size: 1.7rem;
+@media screen and (max-width: 800px) {
+  header {
+    height: 510px;
+    width: 100%;
+    min-width: 380px;
   }
-  header .hero__box--1 div {
-    font-size: 2rem;
+  header .hero__box--2 {
+    height: 100px;
+    width: 100px;
+    top: 120%;
+    left: 43%;
   }
-  header .hero__box--3 a {
-    width: 15rem;
-    padding: 2rem;
-    font-size: 1.3rem;
+  header .hero__box--2::after {
+    bottom: -4rem;
+    width: 400px;
+    font-size: 1.6rem;
+    left: -17rem;
   }
-  header .nav__logo {
-    display: none;
+  header .hero .circle-1 {
+    height: 89px;
+    width: 89px;
+    margin: 5px;
   }
-  header .nav__second {
-    justify-content: flex-start;
+  header .hero .circle-2 {
+    height: 77px;
+    width: 77px;
+    margin: 11px;
   }
-  header .nav__second li {
-    margin: 0;
-  }
-  header .nav__second a {
-    font-size: 1.3rem;
-    padding: 0 1rem;
-  }
-  .stats__top > div div {
-    padding: 2rem;
-  }
-  .stats__top > div p {
-    font-size: 2rem;
-  }
-  .currencies__box {
-    grid-template-columns: repeat(4, 1fr);
+  header .hero .circle-3 {
+    height: 48px;
+    width: 48px;
+    margin: 26px;
   }
 }
 
 @media screen and (max-width: 700px) {
-  .currencies__box p {
-    font-size: 1.3rem;
-  }
-  .currencies__box .logo-box {
-    width: 6rem;
-    height: 6rem;
-  }
-  .footer__top {
-    flex-direction: column;
-  }
-  .footer__col--1 {
-    order: 2;
-  }
-  .footer__col--2 {
-    order: 1;
-    margin-bottom: 3rem;
-  }
-  .footer__col--3 {
-    order: 3;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  header .hero__box--2 {
-    top: 140%;
-    left: 20%;
-  }
-  header .hero .slogan {
-    width: 40rem;
-    left: -3rem;
-  }
-  .about__bottom {
-    flex-direction: column;
-  }
-  .about__bottom--image {
-    text-align: center;
-  }
-  .about__bottom--text {
-    padding: 3rem 0;
-  }
-  .about__bottom--video {
-    height: 70rem;
-  }
-  .about__bottom img {
-    width: 70%;
-  }
-  .plans__box {
-    flex-direction: column;
-  }
-  .plans__box div {
-    width: 60%;
-    margin: 0 auto 6rem;
-  }
-  .affiliate__inner--image {
+  header .hero__box--2::after {
     display: none;
-  }
-  .affiliate__inner--text {
-    transform: translateX(0);
-  }
-  .stats__bottom {
-    flex-direction: column;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  header {
-    height: 130vh;
-  }
-  header .nav__first {
-    flex-direction: column;
-  }
-  header .nav__second {
-    padding: 0 2rem;
-    position: absolute;
-    left: 0;
-  }
-  header .nav__contact {
-    margin: 1rem 0;
-    width: 100%;
-  }
-  header .hero {
-    top: 5rem;
-  }
-  .affiliate__inner {
-    margin-top: 10rem;
-  }
-  .currencies__box {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-@media screen and (max-width: 430px) {
-  header .hero__box--2 {
-    left: 2%;
-  }
-  header .hero .slogan {
-    left: 0;
-  }
-  .about {
-    margin-top: 5rem;
-  }
-  .about__top h2:first-of-type {
-    flex: 1;
-    text-align: center;
-  }
-  .about__top h2:last-of-type {
-    display: none;
-  }
-  .plans__box div {
-    width: 90%;
-  }
-  .affiliate__inner--text {
-    flex-basis: 0;
-    width: 100%;
-    padding: 2rem;
-  }
-  .affiliate__inner--text span:first-child {
-    font-size: 8rem;
-  }
-  .affiliate__inner--text span:last-child {
-    font-size: 2rem;
-  }
-  .stats__top > div h3 {
-    font-size: 1.3rem;
-  }
-  .stats__top > div p {
-    font-size: 1.3rem;
-  }
-  .currencies__box {
-    flex-wrap: wrap;
-  }
-  .footer__bottom {
-    flex-direction: column;
-  }
-  .footer__bottom p {
-    margin-bottom: 1.5rem;
-  }
-  .footer h2 {
-    margin-bottom: 2rem;
   }
 }

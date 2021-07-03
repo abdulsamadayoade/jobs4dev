@@ -63,7 +63,7 @@ h2 {
 
 // HEADER
 header {
-    height: 120vh;
+    height: 704px;
     background-image: url('assets/header.png');
     background-size: cover;
     background-position: center;
@@ -254,7 +254,22 @@ header {
             360deg
             , #3d181f, #3d181f, #3d181f, #3d181f, #3d181f, rgba(176,51,56, 0.5) 100%), #3d181f;
             box-shadow: 0px -20px 20px rgba(37, 13, 18, 0.7);
+
+            &::after {
+                content: 'Reliability of mutual cooperation always!';
+                position: absolute;
+                bottom: 10rem;
+                left: 0;
+                font-size: 2.5rem;
+                text-align: center;
+                padding: 1rem 4rem;
+                background: linear-gradient(90deg,rgba(37,13,18,0.00), rgba(37,13,18,1.0) 50%, rgba(37,13,18,0.00));
+                color: $color-2;
+                display: block;
+                margin: 0 auto;  
+                z-index: 20;            
             }
+        }
 
             .circle-1 {
                 background: url('assets/circle.png') no-repeat 50% 50%;
@@ -383,11 +398,17 @@ header {
         justify-content: space-between;
 
         div {
-            flex-basis: 33%;
+            flex: 1
+        }
+
+        &--image {
+            img {
+                width: 100%;
+            }
         }
 
         &--text {
-            padding-right: 1.5rem;
+            padding: 0 .5rem;
             font-weight: 500;
         }
     }
@@ -806,18 +827,21 @@ header {
 
 // MEDIA QUERIES
 @media screen and (max-width: 1200px) {
-    h2 {
-        font-size: 2.8rem;
-    }
-
     header {
+        height: 610px;
         .hero {
-
             &__box--2 {
                 height: 300px;
                 width: 300px;
                 top: 60%;
                 left: 35%;
+
+                &::after {
+                    bottom: 0;
+                    width: 600px;
+                    font-size: 1.8rem;
+                    left: -17rem;
+                }
             }
 
             .slogan {
@@ -849,309 +873,58 @@ header {
             }
         }
     }
-
-    .about {
-        &__bottom--image {
-            img {
-                width: 100%;
-            }
-        }
-
-        &__bottom--text {
-            padding: .5rem;
-            font-size: 1.3rem;
-        }
-    }
-
-    .affiliate {
-        &__inner {
-            margin-top: 5rem;
-            &--text {
-                transform: translateX(-8rem);
-            }
-        }
-    }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
     header {
+        height: 510px;
+        width: 100%;
+        min-width: 380px;
+
         .hero {
-            &--text {
-                font-size: 1.7rem;
-            }
+            &__box--2 {
+                height: 100px;
+                width: 100px;
+                top: 120%;
+                left: 43%;
 
-            &__box--1 {
-                div {
-                    font-size: 2rem;
+                &::after {
+                    bottom: -4rem;
+                    width: 400px;
+                    font-size: 1.6rem;
+                    left: -17rem;
                 }
             }
 
-            &__box--3 a {
-                width: 15rem;
-                padding: 2rem;
-                font-size: 1.3rem;
-            }
-        }
-        .nav {
-            &__logo {
-                display: none;
+            .circle-1 {
+                height: 89px;
+                width: 89px;
+                margin: 5px;
             }
 
-            &__second {
-                justify-content: flex-start;
-
-                li {
-                    margin: 0;
-                }
-
-                a {
-                    font-size: 1.3rem;
-                    padding: 0 1rem;
-                }
+            .circle-2 {
+                height: 77px;
+                width: 77px;
+                margin: 11px;
             }
-        }
-    }
 
-    .stats {
-        &__top {
-            > div {
-                div {
-                    padding: 2rem;
-                }
-
-                p {
-                    font-size: 2rem;
-                }
+            .circle-3 {
+                height: 48px;
+                width: 48px;
+                margin: 26px;
             }
-        }
-    }
-
-    .currencies {
-        &__box {
-            grid-template-columns: repeat(4, 1fr);
         }
     }
 }
 
 @media screen and (max-width: 700px) {
-    .currencies {
-        &__box {
-            p {
-                font-size: 1.3rem;
-            }
-            .logo-box {
-                width: 6rem;
-                height: 6rem;
-            }
-        }
-    }
-
-    .footer {
-        &__top {
-            flex-direction: column;
-            // align-items: center;
-        }
-
-        &__col--1 {
-            order: 2;
-        }
-
-        &__col--2 {
-            order: 1;
-            margin-bottom: 3rem;
-        }
-
-        &__col--3 {
-            order: 3;
-        }
-    }
-}
-
-@media screen and (max-width: 600px) {
     header {
         .hero {
             &__box--2 {
-                top: 140%;
-                left: 20%;
-            }
-
-            .slogan {
-                width: 40rem;
-                left: -3rem;
-            }
-        }
-    }
-    .about {
-        &__bottom {
-            flex-direction: column;
-
-            &--image {
-                text-align: center;
-            }
-
-            &--text {
-                padding: 3rem 0;
-            }
-
-            &--video {
-                height: 70rem;
-            }
-
-            img {
-                width: 70%;
-            }
-        }
-    }
-    .plans {
-        &__box {
-            flex-direction: column;
-
-            div {
-                width: 60%;
-                margin: 0 auto 6rem;
-            }
-        }
-    }
-    .affiliate {
-        &__inner {
-            &--image {
-                display: none;
-            }
-
-            &--text {
-                transform: translateX(0);
-            }
-        }
-    }
-    .stats {
-        &__bottom {
-            flex-direction: column;
-        }
-    }
-}
-
-@media screen and (max-width: 500px) {
-    header {
-        height: 130vh;
-
-        .nav {
-            &__first {
-                flex-direction: column;
-            }
-            &__second {
-                padding: 0 2rem;
-                position: absolute;
-                left: 0;
-            }
-
-            &__contact {
-                margin: 1rem 0;
-                width: 100%;
-            }
-        }
-        .hero {
-            top: 5rem;
-        }
-    }
-
-    .affiliate {
-        &__inner {
-            margin-top:10rem;
-        }
-    }
-
-    .currencies {
-        &__box {
-            grid-template-columns: repeat(3, 1fr);
-        }
-    }
-}
-
-@media screen and (max-width: 430px) {
-    header {
-        .hero {
-            &__box {
-                &--2 {
-                    left: 2%;
+                &::after {
+                    display: none;
                 }
             }
-
-            .slogan {
-                left: 0;
-            }
-        }
-    }
-
-    .about {
-        margin-top: 5rem;
-        &__top {
-            h2:first-of-type {
-                flex: 1;
-                text-align: center;
-            }
-            h2:last-of-type {
-                display: none;
-            }
-        }
-    }
-
-    .plans {
-        &__box {
-            div {
-                width: 90%;
-            }
-        }
-    }
-
-    .affiliate {
-        &__inner {
-            &--text {
-                flex-basis: 0;
-                width: 100%;
-                padding: 2rem;
-
-                span:first-child {
-                    font-size: 8rem;
-                }
-
-                span:last-child {
-                    font-size: 2rem;
-                }
-            }
-        }
-    }
-
-    .stats {
-        &__top {
-            > div {
-                h3 {
-                    font-size: 1.3rem;
-                }
-
-                p {
-                    font-size: 1.3rem;
-                }
-            }
-        }
-    }
-
-    .currencies {
-        &__box {
-            flex-wrap: wrap;
-        }
-    }
-
-    .footer {
-        &__bottom {
-            flex-direction: column;
-
-            p {
-                margin-bottom: 1.5rem;
-            }
-        }
-
-        h2 {
-            margin-bottom: 2rem;
         }
     }
 }

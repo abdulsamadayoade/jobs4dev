@@ -392,7 +392,7 @@ header .hero__box--3 a:first-child {
 }
 
 .about__bottom--image {
-  flex-basis: 25%;
+  flex-basis: 30%;
 }
 
 .about__bottom--image img {
@@ -400,7 +400,7 @@ header .hero__box--3 a:first-child {
 }
 
 .about__bottom--video {
-  flex-basis: 28%;
+  flex-basis: 30%;
 }
 
 .about__bottom--text {

@@ -878,6 +878,9 @@ header .hero__box--3 a:first-child {
     width: 48px;
     margin: 26px;
   }
+  .about__bottom--text {
+    font-size: 1rem;
+  }
 }
 
 @media screen and (max-width: 700px) {

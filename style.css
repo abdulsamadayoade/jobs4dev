@@ -11,7 +11,7 @@ html {
 
 body {
   font-family: 'Aldrich', sans-serif;
-  font-size: 1.35rem;
+  font-size: 13px;
   background: #fff url("assets/bg.jpg") no-repeat 50% 50% fixed;
 }
 
@@ -371,6 +371,7 @@ header .hero__box--3 a:first-child {
 
 .about__bottom--text {
   flex-basis: 60%;
+  font-size: 13px;
 }
 
 .about__bottom--video {
@@ -882,7 +883,75 @@ header .hero__box--3 a:first-child {
 }
 
 @media only screen and (max-width: 500px) {
-  .about__bottom--text p {
-    font-size: 13px;
+  .about__bottom--text {
+    font-size: 10px;
   }
+}
+
+.row {
+  width: 100%;
+  max-width: 1200px;
+  display: block;
+  display: flex;
+  margin: 30px auto 0px;
+  clear: both;
+}
+
+.content-box {
+  display: block;
+  float: left;
+  width: 340px;
+}
+
+.about_h,
+.about_h2 {
+  display: block;
+  margin-right: 30px;
+  font-size: 32px;
+  line-height: 38px;
+  margin-top: -40px;
+  margin-bottom: 40px;
+  text-align: left;
+  font-weight: normal;
+  height: 80px;
+  text-transform: uppercase;
+}
+
+.h3_2 {
+  font-size: 37px;
+  color: #f7921e;
+}
+
+.content_box2 {
+  display: block;
+  float: left;
+  width: 445px;
+}
+
+.welcome_txt {
+  padding: 50px 10px 10px;
+}
+
+.content_box3 {
+  display: block;
+  float: left;
+  width: 415px;
+}
+
+.video {
+  background: url(../images/monitor_img.png) no-repeat 50% 50%;
+  width: 415px;
+  height: 336px;
+  display: inline-block;
+  text-align: center;
+}
+
+.video_code {
+  background: rgba(0, 0, 0, 0);
+  display: inline-block;
+  width: 388px;
+  height: 230px;
+  margin-top: 13px;
+  overflow: hidden;
+  cursor: pointer;
 }

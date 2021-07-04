@@ -1,3 +1,3 @@
-# SimiTerrior
+# SimiTerior
 
-A landing page for a fictional interior decoration agency, SimiTerrior.
+A landing page for a fictional interior decoration agency, SimiTerior.

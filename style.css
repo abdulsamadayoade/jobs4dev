@@ -9,36 +9,10 @@ html {
   font-size: 10px;
 }
 
-@media only screen and (max-width: 62.5em) {
-  html {
-    font-size: 56.25%;
-  }
-}
-
-@media only screen and (max-width: 56.25em) {
-  html {
-    font-size: 54%;
-  }
-}
-
-@media only screen and (max-width: 37.5em) {
-  html {
-    font-size: 51%;
-  }
-}
-
-@media only screen and (min-width: 112.5em) {
-  html {
-    font-size: 75%;
-  }
-}
-
 body {
   font-family: 'Aldrich', sans-serif;
   font-size: 1.35rem;
   background: #fff url("assets/bg.jpg") no-repeat 50% 50% fixed;
-  line-height: 1.3;
-  overflow-x: hidden;
 }
 
 .container {
@@ -395,18 +369,16 @@ header .hero__box--3 a:first-child {
   flex-basis: 30%;
 }
 
-.about__bottom--image img {
-  width: 100%;
+.about__bottom--text {
+  flex-basis: 60%;
 }
 
 .about__bottom--video {
   flex-basis: 30%;
 }
 
-.about__bottom--text {
-  padding: 0 .5rem;
-  font-weight: 500;
-  flex: 1;
+.about__bottom img {
+  width: 100%;
 }
 
 .plans {
@@ -845,6 +817,29 @@ header .hero__box--3 a:first-child {
   }
 }
 
+@media screen and (max-width: 900px) {
+  .about h2 {
+    font-size: 2.5rem;
+  }
+  .about__bottom {
+    flex-direction: column;
+  }
+  .about__bottom--image {
+    flex-basis: 30%;
+    text-align: center;
+  }
+  .about__bottom--image img {
+    width: auto;
+  }
+  .about__bottom--text {
+    flex-basis: 60%;
+    margin: 3rem 0;
+  }
+  .about__bottom--video {
+    flex-basis: 30%;
+  }
+}
+
 @media screen and (max-width: 800px) {
   header {
     height: 510px;
@@ -878,13 +873,16 @@ header .hero__box--3 a:first-child {
     width: 48px;
     margin: 26px;
   }
-  .about__bottom--text {
-    font-size: 1rem;
-  }
 }
 
 @media screen and (max-width: 700px) {
   header .hero__box--2::after {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .about__bottom--text p {
+    font-size: 13px;
   }
 }

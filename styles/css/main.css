@@ -7,6 +7,16 @@
   box-sizing: inherit;
 }
 
+@font-face {
+  font-family: "Strawford Regular";
+  src: url("../../../textfonts/Strawford-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Strawford Bold";
+  src: url("../../../textfonts/Strawford-Bold.ttf");
+}
+
 html {
   font-size: 62.5%;
   box-sizing: border-box;
@@ -39,9 +49,10 @@ html {
 }
 
 body {
-  font-weight: 400;
-  font-size: 1.5rem;
+  font-weight: 300;
+  font-size: 1.45rem;
   line-height: 1.5;
+  font-family: "Strawford Regular";
 }
 
 a {
@@ -50,4 +61,115 @@ a {
 
 ul {
   list-style: none;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.nav {
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  font-size: 2rem;
+  font-weight: 900;
+  font-family: "Strawford Bold";
+  color: #eeeff1;
+}
+
+.nav__menu {
+  display: block;
+  background: transparent;
+  position: relative;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.nav__menu div {
+  height: 2px;
+  width: 3.3rem;
+  background-color: #eeeff1;
+  margin: 7px 0;
+}
+
+.nav__menu div:last-child {
+  width: 2rem;
+  margin-left: auto;
+}
+
+header {
+  background-color: #22201f;
+  height: 100vh;
+}
+
+header .hero {
+  display: flex;
+  align-items: center;
+  color: #eeeff1;
+}
+
+header .hero__left {
+  padding: 6rem 0;
+  width: 70%;
+}
+
+header .hero__left h1 {
+  font-size: 5.5rem;
+  max-width: 30rem;
+  line-height: 1;
+  margin-bottom: 6rem;
+}
+
+header .hero__left--box {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+
+header .hero__left--box span {
+  width: 30%;
+  font-weight: 700;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+header .hero__left--box span img {
+  width: 5rem;
+  height: 5rem;
+  display: block;
+  margin-top: 2.5rem;
+}
+
+header .hero__left--box p {
+  width: 60%;
+}
+
+header .hero__right {
+  text-align: right;
+  position: relative;
+  width: 30%;
+}
+
+header .hero__right img {
+  height: 48rem;
+  width: auto;
+}
+
+header .hero__right::before {
+  content: '';
+  position: absolute;
+  top: 5rem;
+  left: -10rem;
+  width: 25rem;
+  height: 25rem;
+  background-image: url("../../../assets/2.jpg");
+  background-size: cover;
 }

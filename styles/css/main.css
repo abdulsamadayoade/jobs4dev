@@ -50,7 +50,7 @@ html {
 
 body {
   font-weight: 300;
-  font-size: 1.45rem;
+  font-size: 1.5rem;
   line-height: 1.5;
   font-family: "Strawford Regular";
 }
@@ -61,6 +61,11 @@ a {
 
 ul {
   list-style: none;
+}
+
+h3 {
+  font-size: 3rem;
+  color: #1b201b;
 }
 
 .container {
@@ -172,4 +177,52 @@ header .hero__right::before {
   height: 25rem;
   background-image: url("../../../assets/2.jpg");
   background-size: cover;
+}
+
+section {
+  padding: 15rem 0;
+}
+
+.works {
+  background: #f4f6f8;
+}
+
+.works__grid {
+  display: flex;
+}
+
+.works__grid--left, .works__grid--right {
+  flex: 1;
+}
+
+.works__grid--left {
+  padding-right: 3rem;
+}
+
+.works__grid--left > div {
+  margin-bottom: 4rem;
+}
+
+.works__grid--left > div h3 {
+  margin-bottom: 4rem;
+}
+
+.works__grid--left > div .box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.works__grid--left > div .box * {
+  flex: 1;
+}
+
+.works__grid--left > div .box span {
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  color: #B4B4B4;
+  font-weight: 600;
+}
+
+.works__grid--left > div .box p {
+  color: #B4B4B4;
 }

@@ -1,3 +1,2 @@
-# SimiTerior
-
-A landing page for a fictional interior decoration agency, SimiTerior.
+#Jobs4Dev
+A jobs listing website for developers.

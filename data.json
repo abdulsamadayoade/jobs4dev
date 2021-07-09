@@ -1,0 +1,303 @@
+[
+  {
+    "id": 1,
+    "company": "TekStrea",
+    "logo": "https://i.stack.imgur.com/g25JP.png",
+    "roleName": "Pega Developer - 100% Remote",
+    "postedTime": "5h ago",
+    "type": "Full Time",
+    "location": "United States",
+    "website": "https://linkedin.com/TekStrea",
+    "applicationLink": "https://linkedin.com/TekStrea/apply",
+    "requirements": {
+      "intro": "A TekStrea client, a healthcare technology company, has an immediate need for a Pega Developer for a remote long term contract.  We're looking for an experienced developer to support defects, issues and development.",
+      "content": "The ideal candidate is as passionate about solving challenges through technology.",
+      "items": [
+        "Needs to be experienced in the PEGA platform on at least 7.22 with PEGA 8.x preferred.",
+        "Pega Marketing or Pega Customer Decision Hub certification (for developers).",
+        "Blues experience highly preferred, Healthcare experience required.",
+        "Must be USA based and open to work standard business hours of 8-5pm ET."
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "company": "Facebook",
+    "logo": "https://i.stack.imgur.com/9z3js.jpg",
+    "roleName": "3D Web Software Engineer",
+    "postedTime": "20h ago",
+    "type": "Part Time",
+    "location": "United States",
+    "website": "https://linkedin.com/Facebook",
+    "applicationLink": "https://linkedin.com/Facebook/apply",
+    "requirements": {
+      "intro": "Facebook's mission is to give people the power to build community and bring the world closer together. ",
+      "content": "Come work alongside expert software engineers and research scientists to create the technology that makes VR and AR pervasive and universal. Join the adventure of a lifetime as we make science fiction real and change the world.",
+      "items": [
+        "BS Computer Science or equivalent experience",
+        "3+ years of experience developing 3D/XR web applications or frameworks",
+        "5+ years of experience using JavaScript in a professional software development setting"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "company": "Jobot",
+    "logo": "https://i.stack.imgur.com/MQ81F.png",
+    "roleName": "SR. Software Engineer - Python Django",
+    "postedTime": "1d ago",
+    "type": "Part Time",
+    "location": "United States",
+    "website": "https://linkedin.com/Jobot",
+    "applicationLink": "https://linkedin.com/Jobot/apply",
+    "requirements": {
+      "intro": "Are you a fit? Easy Apply now by clicking the 'Apply' button and sending us your resume.",
+      "content": "We're looking for Sr. level backend software engineers that have at least 7 years of writing code for web-based Python applications.",
+      "items": [
+        "You will need at least 3 years of writing Python Django applications and at least 10 years of software engineering experience.",
+        "The frontend of this application is written in React.js - if you are comfortable in a full-stack role, then even better, but not a requirement.",
+        "Ideally, you have tenure in all of the companies you've worked for, so you can show growth and technical challenges that you've overcome over time."
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "company": "SpringbokIT",
+    "logo": "https://i.stack.imgur.com/nnuOF.png",
+    "roleName": "Frontend Content Developer",
+    "postedTime": "2d ago",
+    "type": "Full Time",
+    "location": "United States",
+    "website": "https://linkedin.com/SpringbokIT",
+    "applicationLink": "https://linkedin.com/SpringbokIT/apply",
+    "requirements": {
+      "intro": "A global leader in the retail space has migrated to Salesforce and is looking to add to its content development team. ",
+      "content": "The company holds a “Greater Together” mentality and the Content Production Manager, to which this role reports, embodies that mantra. ",
+      "items": [
+        "Experience with Salesforce Commerce Cloud (SFCC) Business Manager",
+        "HTML, CSS, Javascript, and Bootstrap",
+        "Experience working with a collaborative group in a process-oriented production environment."
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "company": "Dice",
+    "logo": "https://i.stack.imgur.com/dvkJc.jpg",
+    "roleName": "Front End Developer",
+    "postedTime": "2d ago",
+    "type": "Part Time",
+    "location": "United States",
+    "website": "https://linkedin.com/Dice",
+    "applicationLink": "https://linkedin.com/Dice/apply",
+    "requirements": {
+      "intro": "Dice is the leading career destination for tech experts at every stage of their careers. Our client, TrustMinds, Inc., is seeking the following. Apply via Dice today!",
+      "content": "Seeking front end developers to build and maintain websites, landing pages, and display ad banners using HTMLCSSJavaScript to build responsive designs from provided mockups ",
+      "items": [
+        "advanced HTML, CSS, and JavaScript",
+        "build systems based on NPM, Gulp, Webpack, Sass",
+        "should feel confident using GitGitflow branching strategies"
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "company": "The Population Project",
+    "logo": "https://i.stack.imgur.com/rkoVs.png",
+    "roleName": "CTO / Co-founder",
+    "postedTime": "2d ago",
+    "type": "Part Time",
+    "location": "United States",
+    "website": "https://linkedin.com/ThePopulationProject",
+    "applicationLink": "https://linkedin.com/ThePopulationProject/apply",
+    "requirements": {
+      "intro": "The Population Project, a non-profit organization striving to list the name and date of birth of all humans alive, is looking for its CTO / technical co-founder.",
+      "content": "This is a non- to low-paying position, requiring 10 to 40 hours a week depending on your involvement.",
+      "items": [
+        "Maintaining a large Postgres AWS-hosted database",
+        "Building the next version of our website when we decide to publicly expose our data",
+        "Monitoring the Wrike and Discord collaboration platforms with which we interact with our volunteers"
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "company": "Georgia IT, Inc.",
+    "logo": "https://i.stack.imgur.com/rcM69.png",
+    "roleName": "Full Stack Engineer - REMOTE or Onsite",
+    "postedTime": "2d ago",
+    "type": "Part Time",
+    "location": "United States",
+    "website": "https://linkedin.com/GeorgiaITInc",
+    "applicationLink": "https://linkedin.com/GeorgiaITInc/apply",
+    "requirements": {
+      "intro": "This company hasn't provided an intro.",
+      "content": "Able to interface with customer digital sales and lead generation tools and following the lead into their CRM (SalesForce) system for conversion by an agent.",
+      "items": [
+        "US Citizens and Green Card Only, No third party",
+        "Engineers with solid JavaScript and AWS background.",
+        "Experience in React.JS, Node.JS, and Angular is preferred"
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "company": "Michael Page",
+    "logo": "https://i.stack.imgur.com/CdULh.jpg",
+    "roleName": "Frontend Software Engineer Remote Banking $130k/yr",
+    "postedTime": "2d ago",
+    "type": "Part Time",
+    "location": "United States",
+    "website": "https://linkedin.com/MichaelPage",
+    "applicationLink": "https://linkedin.com/MichaelPage/apply",
+    "requirements": {
+      "intro": "This company is a Boston based company that partners with hundreds of banks and credit unions. Voted one of the fastest growing FinTech companies in the world in 2020, our client strives to produce a product to help streamline the banking industry.",
+      "content": "Tech Stack: Typescript, JavaScript, Angular, AWS, CSS",
+      "items": [
+        "4+ years of hands on development experience",
+        "Experience in frontend development using Typescript, JavaScript and Angular",
+        "Experience delivering applications using AWS"
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "company": "GAOTek Inc.",
+    "logo": "https://i.stack.imgur.com/65QCg.jpg",
+    "roleName": "Software Development Intern (Virtual)",
+    "postedTime": "2d ago",
+    "type": "Part Time",
+    "location": "United States",
+    "website": "https://linkedin.com/GAOTekInc",
+    "applicationLink": "https://linkedin.com/GAOTekInc/apply",
+    "requirements": {
+      "intro": "You shall be keen to learn, willing to work hard, maintaining productivity and committed to the job. ",
+      "content": "This position is for those who are currently residing in the US and have the correct VISA to work in the country.",
+      "items": [
+        "Software development plans",
+        "Software architecture",
+        "White papers"
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "company": "RemoteHub",
+    "logo": "https://i.stack.imgur.com/fGycX.jpg",
+    "roleName": "Work from Home Opportunities",
+    "postedTime": "2d ago",
+    "type": "Part Time",
+    "location": "United States",
+    "website": "https://linkedin.com/RemoteHub",
+    "applicationLink": "https://linkedin.com/RemoteHub/apply",
+    "requirements": {
+      "intro": "Appen is a global leader in speech and search technology services and we have several part time work from home opportunities that you can apply for!",
+      "content": "We are looking for applicants for an exciting work from home opportunity. Applicants must be self-motivated and internet savvy and there is no previous work experience or college degree required to apply for our jobs.",
+      "items": [
+        "Linguistic Specialties (Text to Speech, Computational, Phonetics, Pronunciation, Annotation, etc.)",
+        "Social Media Evaluation (Help improve social media around the globe)",
+        "Search Engine Evaluation (Work with the world’s top search engine companies)"
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "company": "Suncap Technology",
+    "logo": "https://i.stack.imgur.com/NEyGK.jpg",
+    "roleName": "Front-end Web Developer /Remote (San Bruno, CA Post Covid) 12 mth+ contract",
+    "postedTime": "2d ago",
+    "type": "Part Time",
+    "location": "United States",
+    "website": "https://linkedin.com/SuncapTechnology",
+    "applicationLink": "https://linkedin.com/SuncapTechnology/apply",
+    "requirements": {
+      "intro": "This company hasn't provided an intro.",
+      "content": "Front-end Web Developer includes:",
+      "items": [
+        "Design, and develop Web and Mobile Web pages",
+        "Effectively collaborate with Product, UX, and Marketing teams",
+        "Provide subject matter expertise for web and mobile web responsive designs"
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "company": "HomeLister",
+    "logo": "https://i.stack.imgur.com/rPpGB.jpg",
+    "roleName": "Data Entry Specialist - Full Time - Work From Home",
+    "postedTime": "2d ago",
+    "type": "Part Time",
+    "location": "United States",
+    "website": "https://linkedin.com/HomeLister",
+    "applicationLink": "https://linkedin.com/HomeLister/apply",
+    "requirements": {
+      "intro": "[Office Assistant / Remote] - Anywhere in U.S. / up to $44k-yr / Medical-Dental-PTO-401(k) Matching / Real Estate Experience Not Required",
+      "content": "As a Data Entry Specialist you'll: Gain valuable experience learning about residential real estate, and join a great team;",
+      "items": [
+        "Be proficient at standard office software",
+        "Quick to learn new programs",
+        "Possess excellent written and verbal communication skills"
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "company": "WMI Worldwide",
+    "logo": "https://i.stack.imgur.com/ezr46.png",
+    "roleName": "Software Engineer II",
+    "postedTime": "2d ago",
+    "type": "Part Time",
+    "location": "United States",
+    "website": "https://linkedin.com/WMIWorldwide",
+    "applicationLink": "https://linkedin.com/WMIWorldwide/apply",
+    "requirements": {
+      "intro": "Our client's game inspires millions to create together, connects people across the globe, and brings together a community that is among the most active and passionate in the world. The team is looking for a developer to lead and drive the timely delivery of next generation game technology and foundations.",
+      "content": "The Software Engineer II has built large-scale cloud services running in Azure and will take end-to-end ownership for development and quality of products and services that delight customers and add strategic value to our client. ",
+      "items": [
+        "Developing and coordinating features using Microsoft Azure compute and storage",
+        "Defining initiatives that impact our games",
+        "Ensuring timely, high quality deliverables"
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "company": "RIT Solutions, Inc.",
+    "logo": "https://i.stack.imgur.com/MZP9X.jpg",
+    "roleName": "UI developer - REMOTE",
+    "postedTime": "2d ago",
+    "type": "Part Time",
+    "location": "United States",
+    "website": "https://linkedin.com/RITSolutionsInc",
+    "applicationLink": "https://linkedin.com/RITSolutionsInc/apply",
+    "requirements": {
+      "intro": "Looking for a UI Developer with a strong background in ReactJS. ",
+      "content": "Must have strong exp. with ReactJs ",
+      "items": [
+        "Have 8+ years of experience developing software apps",
+        "HTML, CSS, Responsive Web",
+        "HTML, CSS, Responsive Web JSON, XML and Agile"
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "company": "RemoteHub",
+    "logo": "https://i.stack.imgur.com/1yMhJ.png",
+    "roleName": "Freelance Data Entry Associate (Work From Home)",
+    "postedTime": "2d ago",
+    "type": "Part Time",
+    "location": "United States",
+    "website": "https://linkedin.com/RemoteHub",
+    "applicationLink": "https://linkedin.com/RemoteHub/apply",
+    "requirements": {
+      "intro": "Anywhere in U.S. / Competitive pay / Contract position with potential for future assignments",
+      "content": "As a Data Entry Associate you'll: Assist in the creation of content;",
+      "items": [
+        "Compile and sort information to prepare source data",
+        "Review data for deficiencies or errors",
+        "Retrieve data from the database or electronic files as requested"
+      ]
+    }
+  }
+]

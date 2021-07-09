@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #11121a;
+    color: #fff;
+    font-family: 'Merriweather', serif;
+}
+
+/* HEADER */
+header {
+    background: #1c1c24;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+header .header-container {
+    max-width: 1250px;
+    width: 100%;
+    padding: 0 25px;
+}
+
+header .header-container a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* SEARCH */
+.search {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 25px;
+    width: 100%;
+}
+
+.search .search-container {
+    background: #1c1c24;
+    height: 60px;
+    border-radius: 10px;
+    border: 2px solid #222328;
+    display: flex;
+    overflow: hidden;
+}
+
+.search .search-container .input-container {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.input-container input {
+    flex-grow: 1;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: #fff;
+    margin-left: 20px;
+    font-size: 15px;
+    font-family: inherit;
+}
+
+.input-container i {
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+.button-container {
+    background: #3060ff;
+    cursor: pointer;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    transition: background .2s ease;
+}
+
+.button-container:hover {
+    background: #5a81ff;
+}
+
+/* JOBS */
+.jobs-list {
+    max-width: 1250px;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto 20px;
+    background: #11121a;
+    padding: 0 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.jobs-list h1 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 20px 0;
+    margin-left: 25px;
+}
+
+.jobs-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 40px;
+    background: #11121a;
+}
+
+.job-tile {
+    background: #1c1c24;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    padding: 30px;
+    transition: transform .3s ease;
+}
+
+.job-tile:hover {
+    transform: scale(1.05);
+}
+
+.job-tile .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.job-tile .top img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.rolename {
+    padding: 20px 0;
+}
+
+.rolename span {
+    font-size: 18px;
+}
+
+.description {
+    height: 105px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #969398;
+    line-height: 1.5;
+    flex-grow: 1;
+}
+
+.buttons {
+    color: #000;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+}
+
+.button {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: #969696;
+    background: #2e2e39;
+    font-size: 13px;
+}
+
+.apply-now {
+    color: #fff;
+    background: #3060ff;
+    margin-right: 15px;
+}

@@ -184,3 +184,16 @@ header .header-container a {
     background: #3060ff;
     margin-right: 15px;
 }
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 930px) {
+    .jobs-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .jobs-container {
+        grid-template-columns: 1fr;
+    }
+}

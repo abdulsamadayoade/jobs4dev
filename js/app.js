@@ -2,7 +2,11 @@
 const buttonContainer = document.querySelector('.button-container');
 buttonContainer.addEventListener('click', function () {
     const inputText = document.getElementById('filter-jobs').value;
-    console.log(inputText);
+    getJobs().then(jobs => {
+        let filteredJobs = filterJobs(jobs, inputText);
+        console.log(filteredJobs);
+        showJobs(filteredJobs);
+    })
 });
 
 // GETTING THE DATA FROM THE JSON FILE AND PUTTING THEM IN THE WEBPAGE
@@ -44,3 +48,23 @@ function showJobs(jobs) {
 getJobs().then(data => {
     showJobs(data);
 });
+
+// FILTER JOBS
+function filterJobs(jobs, searchText) {
+    if(searchText) {
+        let filteredJobs = jobs.filter(job => {
+            if (job.roleName.toLowerCase().includes(searchText)
+                || job.type.toLowerCase().includes(searchText)
+                ||  job.company.toLowerCase().includes(searchText)
+                ||  job.requirements.content.toLowerCase().includes(searchText)
+            ) {
+                return true;
+            } else {
+                return false;
+            }
+        });
+        return filteredJobs;
+    } else {
+        return jobs;
+    }
+}
